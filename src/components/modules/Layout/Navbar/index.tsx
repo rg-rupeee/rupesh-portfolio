@@ -3,11 +3,14 @@
 import Link from 'next/link';
 
 import { Logo, NavContainer, NavItem, NavList } from './styles';
+import Image from 'next/image';
 
 const Navbar = () => {
   return (
     <NavContainer>
-      <Logo>LOGO</Logo>
+      <Logo>
+        <Image src='/logo.png' width={70} height={70} alt='logo' />
+      </Logo>
       <NavList className='nav-list'>
         <NavItem>
           <Link href='/'>HOME</Link>

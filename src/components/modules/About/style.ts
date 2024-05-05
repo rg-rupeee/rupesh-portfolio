@@ -5,9 +5,11 @@ export const AboutContainer = styled.div`
   display: flex;
   gap: 4rem;
 
-  img{
+  img {
     border-radius: 2rem;
     width: 25rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
 
   h4 {
@@ -15,7 +17,7 @@ export const AboutContainer = styled.div`
     font-weight: 600;
   }
 
-  section{
+  section {
     padding-bottom: 1rem;
     display: flex;
     flex-direction: column;

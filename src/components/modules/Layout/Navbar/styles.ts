@@ -4,10 +4,11 @@ export const NavContainer = styled.nav`
   top: 0;
   font-size: 0.8rem;
   position: sticky;
-  margin: 2rem;
+  margin: 3rem 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
 `;
 
 export const Logo = styled.div``;
