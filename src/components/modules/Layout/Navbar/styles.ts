@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
 export const NavContainer = styled.nav`
+  top: 0;
   font-size: 0.8rem;
   position: sticky;
   margin: 2rem;

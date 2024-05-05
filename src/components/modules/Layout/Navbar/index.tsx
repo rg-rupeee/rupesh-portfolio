@@ -10,13 +10,13 @@ const Navbar = () => {
       <Logo>LOGO</Logo>
       <NavList className='nav-list'>
         <NavItem>
-          <Link href='/'>LOGO</Link>
-        </NavItem>
-        <NavItem>
           <Link href='/'>HOME</Link>
         </NavItem>
         <NavItem>
           <Link href='/'>ABOUT</Link>
+        </NavItem>
+        <NavItem>
+          <Link href='/'>RESUME</Link>
         </NavItem>
         <NavItem>
           <Link href='/'>CONTACT</Link>

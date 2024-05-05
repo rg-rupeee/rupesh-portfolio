@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 
 export const FooterContainer = styled.nav`
-  position: absolute;
   bottom: 0;
   padding-top: 3rem;
   border: 1px solid green;

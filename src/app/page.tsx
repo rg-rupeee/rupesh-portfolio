@@ -1,9 +1,10 @@
-import Navbar from '@/components/Navbar';
+import Hero from '@/components/modules/Hero';
+import Navbar from '@/components/modules/Layout/Navbar';
 
-export default function Home() {
+export default function Page() {
   return (
     <>
-      <h1> Hello World</h1>
+      <Hero />
     </>
   );
 }
