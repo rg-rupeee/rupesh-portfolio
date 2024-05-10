@@ -1,8 +1,8 @@
 'use client';
 
 import SectionHeading from '@/components/shared/SectionHeading';
-import Title from './Title';
-import { ResumeContainer } from './style';
+import SectionTitle from './Title';
+import { ResumeContainer, ResumeSectionContainer } from './style';
 
 const title = 'Resume';
 const subtitle = 'Check out my resume';
@@ -10,72 +10,75 @@ const subtitle = 'Check out my resume';
 const Resume = () => {
   return (
     <div>
-      <SectionHeading title={title} subtitle={subtitle} />
-      <ResumeContainer>
+      {/* <SectionHeading title={title} subtitle={subtitle} /> */}
+      <SectionTitle> Experience </SectionTitle>
+      <ResumeSectionContainer>
         <div>
-          <h4>Experience</h4>
+          <h4>
+            Software Developer @ <span>Bajaj Finserv Health</span>
+          </h4>
           <div>
-            <h6>Bachelors of Technology</h6>
-            <div>2019 - 2023 | 9.41 CGPA</div>
-            <p>
-              Chameli Devi Group of Institutions, Indore
-              <br />
-              (Rajiv Gandhi Proudyogiki Vishwavidyalaya)
-            </p>
+            July 2023 - Present* | <span>Pune</span>
           </div>
-          <div>
-            <h6>Higher Secondary (12th)</h6>
-            <div>2017 - 2018 | 85.20 %</div>
-            <p>
-              Excellence Govt. Bal Vinay Mandir, Indore
-              <br />
-              (Madhya Pradesh Board of Secondary Education)
-            </p>
-          </div>
-          <div>
-            <h6>Secondary School (10th)</h6>
-            <div>2015 - 2016 | 8.60 CGPA</div>
-            <p>
-              St. Vincent Pallotti School, Indore
-              <br />
-              (Central Board of Secondary Education)
-            </p>
-          </div>
+          <p>Backend Developement</p>
         </div>
         <div>
-          <h4>Education</h4>
+          <h4>
+            Backend Developer Intern @ <span>Bajaj Finserv Health</span>
+          </h4>
           <div>
-            <h6>Bachelors of Technology</h6>
-            <div>2019 - 2023 | 9.41 CGPA</div>
-            <p>
-              Chameli Devi Group of Institutions, Indore
-              <br />
-              (Rajiv Gandhi Proudyogiki Vishwavidyalaya)
-            </p>
+            July 2022 - June 2023 | <span>Pune</span>
           </div>
-          <div>
-            <h6>Higher Secondary (12th)</h6>
-            <div>2017 - 2018 | 85.20 %</div>
-            <p>
-              Excellence Govt. Bal Vinay Mandir, Indore
-              <br />
-              (Madhya Pradesh Board of Secondary Education)
-            </p>
-          </div>
-          <div>
-            <h6>Secondary School (10th)</h6>
-            <div>2015 - 2016 | 8.60 CGPA</div>
-            <p>
-              St. Vincent Pallotti School, Indore
-              <br />
-              (Central Board of Secondary Education)
-            </p>
-          </div>
+          <p>
+            Learned to work we monorepo and got to learn application
+            architecture, scalling and build tooling to improve CI/CD of micro
+            services.
+          </p>
         </div>
-      </ResumeContainer>
-      <div>
-        <h4>Skills</h4>
-      </div>
+        <div>
+          <h4>
+            SDE Intern - Integrations @ <span>Zluri</span>
+          </h4>
+          <div>
+            June 2021 - June 2022 | <span>Remote</span>
+          </div>
+          <p>Backend Developement</p>
+        </div>
+      </ResumeSectionContainer>
+      <SectionTitle> Education </SectionTitle>
+      <ResumeSectionContainer>
+        <div>
+          <h4>
+            Software Developer @ <span>Bajaj Finserv Health</span>
+          </h4>
+          <div>
+            July 2023 - Present* | <span>Pune</span>
+          </div>
+          <p>Backend Developement</p>
+        </div>
+        <div>
+          <h4>
+            Backend Developer Intern @ <span>Bajaj Finserv Health</span>
+          </h4>
+          <div>
+            July 2022 - June 2023 | <span>Pune</span>
+          </div>
+          <p>
+            Learned to work we monorepo and got to learn application
+            architecture, scalling and build tooling to improve CI/CD of micro
+            services.
+          </p>
+        </div>
+        <div>
+          <h4>
+            SDE Intern - Integrations @ <span>Zluri</span>
+          </h4>
+          <div>
+            June 2021 - June 2022 | <span>Remote</span>
+          </div>
+          <p>Backend Developement</p>
+        </div>
+      </ResumeSectionContainer>
     </div>
   );
 };

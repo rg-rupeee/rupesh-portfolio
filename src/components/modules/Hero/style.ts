@@ -1,6 +1,7 @@
 import styled, { CSSObject } from '@emotion/styled';
 
 export const HeroSectionWrapper = styled.div`
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   font-weight: 800;

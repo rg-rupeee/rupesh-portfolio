@@ -17,11 +17,11 @@ const Footer = () => {
     <FooterContainer>
       <FooterTitle>Rupesh Garhwal</FooterTitle>
       <SocialMediaAccountsList />
-      <ScrollArrow>
+      {/* <ScrollArrow>
         <Link href='/'>
           <ArrowUpwardIcon sx={{ fontSize: 30 }} />
         </Link>
-      </ScrollArrow>
+      </ScrollArrow> */}
       <ClosingLine>Made with ❤️ by Rupesh Garhwal</ClosingLine>
     </FooterContainer>
   );

@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const FooterContainer = styled.nav`
   bottom: 0;
-  padding-top: 3rem;
+  padding-top: 1rem;
   border: 1px solid green;
   width: 100%;
   display: flex;

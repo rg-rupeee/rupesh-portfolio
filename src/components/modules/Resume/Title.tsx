@@ -1,10 +1,11 @@
-import { TitleContainer } from './style';
+import { SectionTitleContainer } from './style';
 
-type TitleProps = {
-  title: string;
+type SectionTitleProps = {
+  children: string;
 };
 
-const Title = ({ title }: TitleProps) => {
-  return <TitleContainer>{title}</TitleContainer>;
+const SectionTitle = ({ children }: SectionTitleProps) => {
+  return <SectionTitleContainer>{children}</SectionTitleContainer>;
 };
-export default Title;
+
+export default SectionTitle;

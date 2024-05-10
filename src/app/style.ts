@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
 
 export const MainContainer = styled.main`
-  padding: 2.5rem 8rem;
+  padding: 0 6rem 0 8rem;
 `;

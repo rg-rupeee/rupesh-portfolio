@@ -16,13 +16,16 @@ const Navbar = () => {
           <Link href='/'>HOME</Link>
         </NavItem>
         <NavItem>
-          <Link href='/'>ABOUT</Link>
+          <Link href='#about'>ABOUT</Link>
         </NavItem>
         <NavItem>
-          <Link href='/'>RESUME</Link>
+          <Link href='#experience'>EXPERIENCE</Link>
         </NavItem>
         <NavItem>
-          <Link href='/'>CONTACT</Link>
+          <Link href='#education'>EDUCATION</Link>
+        </NavItem>
+        <NavItem>
+          <Link href='#contact'>CONTACT</Link>
         </NavItem>
       </NavList>
     </NavContainer>
