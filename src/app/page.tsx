@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <MainContainer>
       <Hero />
-      {/* <About /> */}
+      <About />
       {/* <Resume /> */}
       {/* <Contact /> */}
     </MainContainer>

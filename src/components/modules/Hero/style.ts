@@ -8,7 +8,7 @@ export const HeroSectionWrapper = styled.div`
   min-height: 90vh;
   justify-content: center;
   text-align: center;
-  
+
   .title {
     line-height: 5rem;
     font-size: 4rem;
@@ -33,6 +33,7 @@ export const HeroSectionWrapper = styled.div`
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
+    padding: 0 1.5rem;
   }
 
   .cta-section > a {
@@ -69,13 +70,14 @@ export const HeroSectionWrapper = styled.div`
     .cta-section {
       flex-direction: row;
       justify-content: left;
+      padding: 0;
     }
   }
 `;
 
 export const AccountsListCSS: CSSObject = {
   display: 'none',
-  '@media (min-width: 768px)': {
+  '@media (min-width: 1024px)': {
     display: 'flex',
     position: 'absolute',
     right: '2rem',
