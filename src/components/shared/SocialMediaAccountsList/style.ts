@@ -12,7 +12,7 @@ export const AccountLinks = styled.div<AccountLinksProps>`
   flex-direction: ${(props) => (props.type === 'col' ? 'column' : 'row')};
 
   a:hover {
-    color: green;
+    color: var(--color-primary);
   }
 
   ${(props) => props.extraStyles};

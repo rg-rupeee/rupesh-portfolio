@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 
 export const FooterContainer = styled.nav`
+  background-color: var(--color-black-secondary);
   bottom: 0;
   padding-top: 1rem;
-  border: 1px solid green;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -13,30 +13,10 @@ export const FooterContainer = styled.nav`
 `;
 
 export const FooterTitle = styled.div`
-  font-size: 3rem;  
-`
-
-export const AccountLinks = styled.div`
-  display: flex;
-  gap: 1rem;
-
-  a:hover {
-    color: green;
-  }
-`
-
-export const ScrollArrow = styled.div`
-  background-color: green;
-  color: black;
-  padding: 0.4rem;
-  border-radius: 4px;
-  margin: 1.5rem;
-
-  &:hover {
-    background-color: blue;
-  }
-`
+  font-size: 2.5rem;
+`;
 
 export const ClosingLine = styled.p`
   margin-bottom: 1rem;
-`
+  color: var(--color-primary);
+`;

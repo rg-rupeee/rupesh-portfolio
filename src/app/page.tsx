@@ -10,10 +10,10 @@ import Contact from '@/components/modules/Contact';
 export default function Page() {
   return (
     <MainContainer>
-      <Hero />
+      {/* <Hero />
       <About />
       <Resume />
-      <Contact />
+      <Contact /> */}
     </MainContainer>
   );
 }
