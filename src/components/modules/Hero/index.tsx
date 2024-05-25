@@ -8,13 +8,13 @@ const Hero = () => {
   return (
     <HeroSectionWrapper>
       <h1 className='title'>Rupesh Garhwal</h1>
-      <h2 className='subtitle'>Frontend Hobbyist! Backend Professionalist!</h2>
+      <h2 className='subtitle'>Frontend Hobbyist! <br />Backend Professionalist!</h2>
       <h5 className='description'>
         I am Rupesh Garhwal, I love developing scalable backend solutions.
       </h5>
       <div className='cta-section'>
         <Link href='/'>Contact Me</Link>
-        <Link href='/'>Download My CV</Link>
+        <Link href='/'>Download CV</Link>
       </div>
       <SocialMediaAccountsList type='col' extraStyles={AccountsListCSS} />
     </HeroSectionWrapper>

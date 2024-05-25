@@ -5,49 +5,80 @@ export const HeroSectionWrapper = styled.div`
   display: flex;
   flex-direction: column;
   font-weight: 800;
-  min-height: calc(100vh - 2 * 4rem);
-
+  min-height: 90vh;
+  justify-content: center;
+  text-align: center;
+  
   .title {
-    font-size: 6rem;
+    line-height: 5rem;
+    font-size: 4rem;
+    color: var(--color-primary);
+    padding-bottom: 1.5rem;
   }
 
   .subtitle {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: 600;
   }
 
   .description {
     margin-top: 2.5rem;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 400;
   }
 
   .cta-section {
     margin-top: 3rem;
-    font-size: 0.7rem;
-    font-weight: 600;
     display: flex;
+    flex-direction: column;
     gap: 1rem;
+    justify-content: center;
   }
 
-  .cta-section > a{
-    padding: 0.7rem 1.3rem;
-    border: 1px solid green;
+  .cta-section > a {
+    padding: 0.7rem 2.5em;
+    border: 1.5px solid var(--color-primary);
     border-radius: 2rem;
+    font-weight: 500;
   }
 
-  .cta-section > a:first-child{
-    background-color: green;
+  .cta-section > a:first-child {
+    background-color: var(--color-primary);
   }
 
-  .cta-section > a:hover{
-    background-color: green;
+  .cta-section > a:hover {
+    background-color: var(--color-primary);
     color: black;
+  }
+
+  @media (min-width: 768px) {
+    text-align: left;
+    padding: 6rem;
+    br {
+      display: none;
+    }
+
+    .title {
+      font-size: 6rem;
+    }
+
+    .subtitle {
+      font-size: 2rem;
+    }
+
+    .cta-section {
+      flex-direction: row;
+      justify-content: left;
+    }
   }
 `;
 
 export const AccountsListCSS: CSSObject = {
-  position: 'absolute',
-  right: '2rem',
-  bottom: '2rem',
+  display: 'none',
+  '@media (min-width: 768px)': {
+    display: 'flex',
+    position: 'absolute',
+    right: '2rem',
+    bottom: '6rem',
+  },
 };
