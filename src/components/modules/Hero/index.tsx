@@ -6,11 +6,15 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <HeroSectionWrapper>
+    <HeroSectionWrapper id='home'>
       <h1 className='title'>Rupesh Garhwal</h1>
-      <h2 className='subtitle'>Frontend Hobbyist! <br />Backend Professionalist!</h2>
+      <h2 className='subtitle'>
+        Frontend Hobbyist! <br />
+        Backend Professionalist!
+      </h2>
       <h5 className='description'>
-        I am Rupesh Garhwal, I love developing scalable backend solutions.
+        I am a Software Developer who loves developing efficient and scalable
+        systems.
       </h5>
       <div className='cta-section'>
         <Link href='/'>Contact Me</Link>

@@ -7,6 +7,10 @@ export const AboutContainer = styled.div`
   gap: 2rem;
   font-size: 1.1rem;
 
+  a {
+    color: var(--color-primary);
+  }
+
   h4 {
     color: var(--color-primary);
     font-weight: 600;

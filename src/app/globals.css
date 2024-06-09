@@ -10,7 +10,16 @@
   --color-black-secondary: #161616;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--color-white);
   background-color: var(--color-black);
+}
+
+::selection {
+  color: var(--color-black);
+  background: var(--color-primary);
 }

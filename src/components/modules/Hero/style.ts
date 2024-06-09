@@ -5,7 +5,7 @@ export const HeroSectionWrapper = styled.div`
   display: flex;
   flex-direction: column;
   font-weight: 800;
-  min-height: 90vh;
+  min-height: calc(100vh - 2 * 3rem);
   justify-content: center;
   text-align: center;
 
@@ -45,11 +45,12 @@ export const HeroSectionWrapper = styled.div`
 
   .cta-section > a:first-child {
     background-color: var(--color-primary);
+    color: var(--color-black);
   }
 
   .cta-section > a:hover {
     background-color: var(--color-primary);
-    color: black;
+    color: var(--color-white);
   }
 
   @media (min-width: 768px) {
